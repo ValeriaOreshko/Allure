@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should have exact text \"Встреча успешно запланирован на 15.08.2023\" {[data-test-id='success-notification'] .notification__content}\r\nElement: '<div class=\"notification__content\">Встреча успешно запланирована на 15.08.2023</div>'\r\nActual value: text=\"Встреча успешно запланирована на 15.08.2023\"\r\nScreenshot: file:/C:/Users/User/IdeaProjects/Auto/PatternsCardDelivery/build/reports/tests/1691703294932.0.png\r\nPage source: file:/C:/Users/User/IdeaProjects/Auto/PatternsCardDelivery/build/reports/tests/1691703294932.0.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "should successful plan meeting",
+        "uid" : "1ca66526a10ca5b4",
+        "parentUid" : "fe462961c4f320c6920070806db35baf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1691703263478,
+          "stop" : 1691703296103,
+          "duration" : 32625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe462961c4f320c6920070806db35baf"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

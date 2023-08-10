@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-HSRJ79L7",
+    "children" : [ {
+      "name" : "8484@LAPTOP-HSRJ79L7.Test worker(1)",
+      "children" : [ {
+        "name" : "should successful plan meeting",
+        "uid" : "1ca66526a10ca5b4",
+        "parentUid" : "4397f925956c6b66414d728bbd83f1e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1691703263478,
+          "stop" : 1691703296103,
+          "duration" : 32625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4397f925956c6b66414d728bbd83f1e9"
+    }, {
+      "name" : "4500@LAPTOP-HSRJ79L7.Test worker(1)",
+      "children" : [ {
+        "name" : "should successful plan meeting",
+        "uid" : "99ccd6c25f12ad64",
+        "parentUid" : "4a6e76d2c075f2c0784aafaa7afc00a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1691702761572,
+          "stop" : 1691702812738,
+          "duration" : 51166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a6e76d2c075f2c0784aafaa7afc00a4"
+    } ],
+    "uid" : "04da2127c6712b8e0b69aa591a2b5a6f"
+  } ]
+}

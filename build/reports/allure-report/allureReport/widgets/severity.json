@@ -1,0 +1,11 @@
+[ {
+  "uid" : "1ca66526a10ca5b4",
+  "name" : "should successful plan meeting",
+  "time" : {
+    "start" : 1691703263478,
+    "stop" : 1691703296103,
+    "duration" : 32625
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

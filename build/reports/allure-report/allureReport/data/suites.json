@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ru.netology.test.PatternsCardDeliveryTest",
+    "children" : [ {
+      "name" : "should successful plan meeting",
+      "uid" : "1ca66526a10ca5b4",
+      "parentUid" : "21371ec463d14c582c28c9a5c6e8c40d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1691703263478,
+        "stop" : 1691703296103,
+        "duration" : 32625
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "21371ec463d14c582c28c9a5c6e8c40d"
+  } ]
+}

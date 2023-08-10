@@ -1,0 +1,22 @@
+{
+  "12213303eb34e00fa9535669d5578615" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ca66526a10ca5b4",
+      "status" : "failed",
+      "statusDetails" : "Element should have exact text \"Встреча успешно запланирован на 15.08.2023\" {[data-test-id='success-notification'] .notification__content}\r\nElement: '<div class=\"notification__content\">Встреча успешно запланирована на 15.08.2023</div>'\r\nActual value: text=\"Встреча успешно запланирована на 15.08.2023\"\r\nScreenshot: file:/C:/Users/User/IdeaProjects/Auto/PatternsCardDelivery/build/reports/tests/1691703294932.0.png\r\nPage source: file:/C:/Users/User/IdeaProjects/Auto/PatternsCardDelivery/build/reports/tests/1691703294932.0.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1691703263478,
+        "stop" : 1691703296103,
+        "duration" : 32625
+      }
+    } ]
+  }
+}
