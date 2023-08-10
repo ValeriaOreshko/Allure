@@ -1,9 +1,8 @@
 package ru.netology.test;
 
+import com.codeborne.selenide.logevents.SelenideLogger;
 import com.github.javafaker.Faker;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.Keys;
 import ru.netology.date.DataGenerator;
 
@@ -15,7 +14,19 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
+import io.qameta.allure.selenide.AllureSelenide;
+
 class PatternsCardDeliveryTest {
+
+    @BeforeAll
+    static void setUpAll () {
+        SelenideLogger.addListener("allure", new AllureSelenide());
+    }
+
+    @AfterAll
+    static void tearDownAll() {
+        SelenideLogger.removeListener("allure");
+    }
 
     @BeforeEach
     void setup() {
@@ -39,7 +50,7 @@ void shouldSuccessfulPlanMeeting() {
         $(byText("Запланировать")).click();
         $(byText("Успешно!")).shouldBe(visible, Duration.ofSeconds(15));
         $("[data-test-id='success-notification'] .notification__content")
-                .shouldHave(exactText("Встреча успешно запланирована на " + firstMeetingDate))
+                .shouldHave(exactText("Встреча успешно запланирован на " + firstMeetingDate))
                 .shouldBe(visible);
         $("[data-test-id=date] input").sendKeys(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.BACK_SPACE);
         $("[data-test-id=date] input").setValue(secondMeetingDate);
